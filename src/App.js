@@ -4,9 +4,7 @@ import { BrowserRouter as Router,  Route, Routes } from "react-router-dom";
 import { Home } from "./components/Pages/Home";
 import { About } from "./components/Pages/About";
 import { Blog } from "./components/Pages/Blog";
-import { Contact } from "./components/Pages/Contact";
 import { Joinus } from "./components/Pages/Joinus";
-import Footer from "./components/Pages/Footer";
 
 function App() {
   return (
@@ -21,7 +19,6 @@ function App() {
             <Route path="/joinus" element={<Joinus/>} />
           </Routes>
         </div>
-        {/* <Footer></Footer> */}
       </Router>
   </>
   );
